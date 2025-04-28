@@ -44,27 +44,23 @@
         android:layout_height="wrap_content"
         android:text="5번"
         android:layout_alignRight="@id/baseText"
-        android:layout_below="@+id/baseText"/>
+        android:layout_below="@id/baseText"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="6번"
         android:layout_above="@id/baseText"
-        android:layout_toRightOf="@+id/baseText"/>
+        android:layout_toRightOf="@id/baseText"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="7번"
         android:layout_above="@id/baseText"
-        android:layout_toLeftOf="@+id/baseText"/>
+        android:layout_toLeftOf="@id/baseText"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="8번"
         android:layout_below="@id/baseText"
-        android:layout_toRightOf="@+id/baseText"/>
-
-
-
-
+        android:layout_toRightOf="@id/baseText"/>
 </RelativeLayout>

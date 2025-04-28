@@ -5,29 +5,33 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Relative3Activity">
-    <Button
-        android:id="@+id/btnBase1"
+    tools:context=".RelativeDir05_4">
+
+    <EditText
+        android:id="@+id/editBase"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="기준1"/>
+        android:text="전화번호: "
+        android:textSize="20sp"
+        android:layout_toLeftOf="@id/editBase"
+        android:layout_alignBaseline="@id/editBase"/>
     <Button
-        android:id="@+id/btnBase2"
+        android:id="@+id/btnBase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="취소"
+        android:layout_below="@id/editBase"
         android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:text="기준2"/>
+        />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/btnBase1"
-        android:layout_above="@id/btnBase2"
-        android:text="1번"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnBase1"
-        android:layout_alignParentRight="true"
-        android:text="2번"/>
+        android:text="입력"
+        android:layout_below="@id/editBase"
+        android:layout_toLeftOf="@id/btnBase"
+        />
 </RelativeLayout>
